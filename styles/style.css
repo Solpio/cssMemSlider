@@ -35,6 +35,9 @@ input{
     width: 25%;
 }
 
+.text{
+    margin-top: 40px;
+}
 
 .slide_1{
     height: 200px;
@@ -56,11 +59,27 @@ input{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background: #ccc;
+    background: #6ed8ff;
     margin: 0 5px;
     cursor: pointer;
 }
 
+.bullets{
+    position: relative;
+    bottom: 70px;
+    left: -20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 500px){
+    .bullets{
+        position: relative;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 #slide1:checked ~ #slides .inner {
     margin-left: 0;
