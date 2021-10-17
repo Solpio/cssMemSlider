@@ -42,28 +42,28 @@ input{
 .slide_1{
     height: 200px;
     padding: 20px;
-    background-image: url("../pictures/mem1.jpg");
+    background-image: url(../pictures/mem1.jpg);
     background-size: 100% 100%; 
     border-radius: 25px;
 }
 .slide_2{
     height: 200px;
     padding: 20px;
-    background-image: url("../pictures/mem2.jpg");
+    background-image: url(../pictures/mem2.jpg);
     background-size: 100% 100%; 
     border-radius: 25px;
 }
 .slide_3{
     height: 200px;
     padding: 20px;
-    background-image: url("../pictures/mem3.jpg");
+    background-image: url(../pictures/mem3.jpg);
     background-size: 100% 100%; 
     border-radius: 25px;
 }
 .slide_4{
     height: 200px;
     padding: 20px;
-    background-image: url("../pictures/mem4.jpg");
+    background-image: url(../pictures/mem4.jpg);
     background-size: 100% 100%; 
     border-radius: 25px;
 }
