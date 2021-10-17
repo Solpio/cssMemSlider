@@ -1,0 +1,47 @@
+body{
+    font-size: 10px;
+}
+
+.slider{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    background-color: #2B3034;
+    max-width: 800px;
+    height: 400px;
+    color: white;
+}
+
+.slides{
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.slider__wrapper{
+    display: flex;
+    padding: 20px;
+}
+
+.inner{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+}
+
+
+.slide_1{
+    height: 200px;
+    padding: 20px;
+    background-image: url("/pictures/hleb.jpg");
+    background-size: 100% 100%; 
+    border-radius: 25px;
+}
+
+.bullet{
+    width: 14px;
+    height: 12px;
+}
